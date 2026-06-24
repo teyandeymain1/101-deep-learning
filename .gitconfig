@@ -1,0 +1,7 @@
+[user]
+	email = teyandeymain1@gmail.com
+	name = ys
+[credential]
+	helper = "!f() { /home/deep_learning_with_docker/.vscode-server/bin/fcf604774b9f2674b473065736ee75077e256353/node /tmp/vscode-remote-containers-4ccc8d04-9f24-42ed-a94b-fc7213443c9e.js git-credential-helper $*; }; f"
+[safe]
+	directory = /home/deep_learning_with_docker

@@ -1,0 +1,5 @@
+*.crl
+*.log
+*.ssh/known_hosts
+*.vscode-server
+*.cache
