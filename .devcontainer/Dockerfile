@@ -8,6 +8,8 @@ ARG USERNAME=deep_learning_with_docker
 # install git and set user and group
 RUN apt-get update \
     && apt-get install -y git \
+    && pip install --no-cache-dir numpy \
+    && pip install --no-cache-dir matplotlib \
     && groupadd -r $USERNAME \
     && useradd -r -m -g $USERNAME $USERNAME \
     && apt-get clean \
