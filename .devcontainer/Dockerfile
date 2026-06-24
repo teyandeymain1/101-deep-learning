@@ -3,7 +3,7 @@ FROM python:3.13-slim-bookworm
 
 # ----- do not edit below ----- 
 
-ARG USERNAME=python_with_docker
+ARG USERNAME=deep_learning_with_docker
 
 # install git and set user and group
 RUN apt-get update \

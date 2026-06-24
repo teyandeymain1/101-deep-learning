@@ -4,8 +4,8 @@
     "dockerfile": "./Dockerfile",
     "context": "."
   },
-  "workspaceMount": "source=c:/Users/teyan/Desktop/programming/01-python-codes,target=/home/python_with_docker,type=bind,consistency=cached", // for PCUnit1
-  //"workspaceMount": "source=/home/yuta/programming/sunagawa_private/01-python-codes,target=/home/python_with_docker,type=bind,consistency=cached", // for lab pc
+  "workspaceMount": "source=c:/Users/teyan/Desktop/programming/101-deep-learning,target=/home/deep_learning_with_docker,type=bind,consistency=cached", // for PCUnit1
+  //"workspaceMount": "source=/home/yuta/programming/sunagawa_private/101-deep-learning,target=/home/deep_learning_with_docker,type=bind,consistency=cached", // for lab pc
   "workspaceFolder": "/home/python_with_docker",
   "customizations": {
     "vscode": {
